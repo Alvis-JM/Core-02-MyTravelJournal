@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Core02-WishYouWereHere</string>
+    <string name="monash_image">monash_image</string>
+    <string name="uom_image">uom_image</string>
+    <string name="rmit_image">rmit_image</string>
+    <string name="swinburne_image">swinburne_image</string>
+    <string name="rmit_text"><b>RMIT</b></string>
+    <string name="uom_text"><b>University of Melbourne</b></string>
+    <string name="monash_text"><b>Monash</b></string>
+    <string name="swinburne_text"><b>Swinburne</b></string>
+    <string name="name">TextView</string>
+    <string name="university">TextView</string>
+    <string name="date">TextView</string>
+
+</resources>

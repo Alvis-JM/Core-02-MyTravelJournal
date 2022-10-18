@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="232dp"
+            android:layout_height="129dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/rmit_image"
+            app:srcCompat="@drawable/rmit" />
+
+        <TextView
+            android:id="@+id/rmit_text"
+            android:layout_width="38dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="189dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="189dp"
+            android:layout_marginBottom="5dp"
+            android:drawablePadding="1dp"
+            android:text="@string/rmit_text"
+            android:textAlignment="center"
+            android:textColor="#CD6155" />
+
+        <ImageView
+            android:id="@+id/uomView"
+            android:layout_width="269dp"
+            android:layout_height="128dp"
+            android:layout_gravity="center"
+            android:layout_marginVertical="6dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginBottom="82dp"
+            android:contentDescription="@string/uom_image"
+            app:srcCompat="@drawable/uom" />
+
+        <TextView
+            android:id="@+id/uom_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="4dp"
+            android:text="@string/uom_text"
+            android:textAlignment="center"
+            android:textColor="#CD6155"
+            tools:ignore="TextContrastCheck" />
+
+        <ImageView
+            android:id="@+id/monashView"
+            android:layout_width="match_parent"
+            android:layout_height="153dp"
+            android:layout_marginVertical="6dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginBottom="82dp"
+            android:contentDescription="@string/monash_image"
+            app:srcCompat="@drawable/monash" />
+
+        <TextView
+            android:id="@+id/monash_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="4dp"
+            android:text="@string/monash_text"
+            android:textAlignment="center"
+            android:textColor="#CD6155" />
+
+        <ImageView
+            android:id="@+id/swinburneView"
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="0dp"
+            android:contentDescription="@string/swinburne_image"
+            app:srcCompat="@drawable/swinburne"
+            tools:ignore="ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/swinburne_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/swinburne_text"
+            android:textAlignment="center"
+            android:textColor="#CD6155" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

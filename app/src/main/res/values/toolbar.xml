@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Theme.Material">
+        <!-- Customize your theme using Material Design here. -->
+        <!-- Title Bar color here -->
+        <item name="android:colorPrimary">#00FFFF</item>
+        <!-- Background color here -->
+        <item name="android:windowBackground">#00FFFF</item>
+    </style>
+
+</resources>
